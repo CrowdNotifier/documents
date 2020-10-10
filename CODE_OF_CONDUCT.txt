@@ -103,8 +103,8 @@ The following behaviors are unacceptable within our community:
 
   * Spontaneously posting or displaying sexually explicit or violent
     material. (If it is necessary to share such material when working on
-    Tor's mission, do so with sensitivity. Be aware that many people don't
-    want to see it.)
+    the project's mission, do so with sensitivity. Be aware that many people
+    don't want to see it.)
 
   * Posting or threatening to post other people’s personally identifying
     information ("doxing") without their consent.
