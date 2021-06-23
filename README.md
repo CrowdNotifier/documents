@@ -22,10 +22,6 @@ correct weaknesses. We feel it is essential that designs be made public so the
 community as a whole can discuss the proposal and verify the claimed privacy
 guarantees before applications are deployed.
 
-## Changes with respect to v1.0
-
-The current version of the white-paper contains several improvements with respect to version v1.0 that we published here earlier. The cryptographic protocol has been changed significantly to avoid the need to reprint a new QR code after triggering a notification. The white paper itself contains a more structured analysis of the security and privacy properties, as well as a more extensive comparison with other deployed systems systems.
-
 ## New variants of CrowdNotifier
 
 We have recently proposed two new variants of CrowdNotifier:
@@ -35,6 +31,34 @@ We have recently proposed two new variants of CrowdNotifier:
  2. A _server-based version_ of CrowdNotifier that enables automatically triggering of notifications based on uploads by users. The health authority does not have to be in the loop, increasing speed of notification. At the same time, abuse resistance is weaker than in the full CrowdNotifier protocol.
 
 Both of these versions are compatible with the full CrowdNotifier protocol. Detailed specifications and analysis can be found in the [technical specification](https://crowdnotifier.readthedocs.io/).
+
+### Changes with respect to v1.0
+
+The current version of the white-paper contains several improvements with respect to version v1.0 that we published here earlier. The cryptographic protocol has been changed significantly to avoid the need to reprint a new QR code after triggering a notification. The white paper itself contains a more structured analysis of the security and privacy properties, as well as a more extensive comparison with other deployed systems systems.
+
+## Academic Publication
+
+An academic paper describing the basic CrowdNotifier scheme was accepted for publication in PoPETs. It contains formal security and privacy definitions and cryptographic proofs that the proposed scheme satisfies them. It also has several smaller improvements over the white paper. Until the camera ready paper is public you can find [a preprint version of the paper in this repository](CrowdNotifier%20-%20PoPETS.pdf).
+
+Please cite this paper as:
+
+```bibtex
+@article{LueksGVBSPT21,
+  author    = {Wouter Lueks and
+               Seda Gürses and
+               Michael Veale and
+               Edouard Bugnion and
+               Marcel Salathé and
+               Kenneth G. Paterson and
+               Carmela Troncoso},
+  title     = {CrowdNotifier: Decentralized Privacy-Preserving Presence Tracing},
+  journal   = {Proc. Priv. Enhancing Technol.},
+  volume    = {2021},
+  number    = {4},
+  year      = {2021},
+  notes     = {To appear},
+}
+```
 
 ## Technical Specification
 
