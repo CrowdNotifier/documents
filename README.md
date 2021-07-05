@@ -34,7 +34,7 @@ Both of these versions are compatible with the full CrowdNotifier protocol. Deta
 
 ### Changes with respect to v1.0
 
-The current version of the white-paper contains several improvements with respect to version v1.0 that we published here earlier. The cryptographic protocol has been changed significantly to avoid the need to reprint a new QR code after triggering a notification. The white paper itself contains a more structured analysis of the security and privacy properties, as well as a more extensive comparison with other deployed systems systems.
+The current version of the white-paper contains several improvements with respect to version v1.0 that we published here earlier. The cryptographic protocol has been changed significantly to avoid the need to reprint a new QR code after triggering a notification. The white paper itself contains a more structured analysis of the security and privacy properties, as well as a more extensive comparison with other deployed systems.
 
 ## Academic Publication
 
